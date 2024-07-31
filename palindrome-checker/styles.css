@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #b4654a;
+  color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.palindrome-div {
+  width: min(100vw, 450px);
+  min-height: 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #f3f4f6;
+}
+
+label {
+  color: #0a0a23;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+#check-btn {
+  font-size: 20px;
+  width: 90px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #426b69;
+  color: #fff;
+  cursor: pointer;
+}
+
+#text-input {
+  height: 30px;
+  width: 250px;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 10px;
+  border: none;
+  background-color: #f3f4f6;
+  border-bottom: 2px solid #5a01a7;
+}
+
+#text-input:focus {
+  border-bottom: 3px solid #5a01a7;
+}
+
+#text-input::placeholder {
+  text-align: center;
+}
+
+.user-input {
+  font-size: 1.4rem;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.results-div {
+  color: black;
+}
+
+.palindrome-description {
+  width: min(100vw, 450px);
+  font-size: 1.3rem;
+  min-height: 140px;
+  background-color: #586994;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  text-align: justify;
+  color: #a9b6da;
+}
+.description > span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
